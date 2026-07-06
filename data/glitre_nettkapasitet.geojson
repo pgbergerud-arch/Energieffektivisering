@@ -1,0 +1,389 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       7.9956,
+       58.22778
+      ],
+      [
+       8.12865,
+       58.18724
+      ],
+      [
+       8.12865,
+       58.10616
+      ],
+      [
+       7.9956,
+       58.06562
+      ],
+      [
+       7.86255,
+       58.10616
+      ],
+      [
+       7.86255,
+       58.18724
+      ],
+      [
+       7.9956,
+       58.22778
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": 1,
+    "omrade_navn": "Kristiansand",
+    "fylke": "Agder",
+    "ledig_kapasitet_mw": 3.4,
+    "kategori": "oransje",
+    "sentrum_lat": 58.1467,
+    "sentrum_lon": 7.9956,
+    "kilde": "syntetisk_demo"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       8.7723,
+       58.54208
+      ],
+      [
+       8.90654,
+       58.50154
+      ],
+      [
+       8.90654,
+       58.42046
+      ],
+      [
+       8.7723,
+       58.37992
+      ],
+      [
+       8.63806,
+       58.42046
+      ],
+      [
+       8.63806,
+       58.50154
+      ],
+      [
+       8.7723,
+       58.54208
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": 2,
+    "omrade_navn": "Arendal",
+    "fylke": "Agder",
+    "ledig_kapasitet_mw": 5.6,
+    "kategori": "gul",
+    "sentrum_lat": 58.461,
+    "sentrum_lon": 8.7723,
+    "kilde": "syntetisk_demo"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       8.5934,
+       58.42168
+      ],
+      [
+       8.72718,
+       58.38114
+      ],
+      [
+       8.72718,
+       58.30006
+      ],
+      [
+       8.5934,
+       58.25952
+      ],
+      [
+       8.45962,
+       58.30006
+      ],
+      [
+       8.45962,
+       58.38114
+      ],
+      [
+       8.5934,
+       58.42168
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": 3,
+    "omrade_navn": "Grimstad",
+    "fylke": "Agder",
+    "ledig_kapasitet_mw": 12.4,
+    "kategori": "gronn",
+    "sentrum_lat": 58.3406,
+    "sentrum_lon": 8.5934,
+    "kilde": "syntetisk_demo"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       7.4519,
+       58.11028
+      ],
+      [
+       7.58452,
+       58.06974
+      ],
+      [
+       7.58452,
+       57.98866
+      ],
+      [
+       7.4519,
+       57.94812
+      ],
+      [
+       7.31928,
+       57.98866
+      ],
+      [
+       7.31928,
+       58.06974
+      ],
+      [
+       7.4519,
+       58.11028
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": 4,
+    "omrade_navn": "Mandal / Lindesnes",
+    "fylke": "Agder",
+    "ledig_kapasitet_mw": 16.9,
+    "kategori": "gronn",
+    "sentrum_lat": 58.0292,
+    "sentrum_lon": 7.4519,
+    "kilde": "syntetisk_demo"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2045,
+       59.82508
+      ],
+      [
+       10.34386,
+       59.78454
+      ],
+      [
+       10.34386,
+       59.70346
+      ],
+      [
+       10.2045,
+       59.66292
+      ],
+      [
+       10.06514,
+       59.70346
+      ],
+      [
+       10.06514,
+       59.78454
+      ],
+      [
+       10.2045,
+       59.82508
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": 5,
+    "omrade_navn": "Drammen",
+    "fylke": "Buskerud",
+    "ledig_kapasitet_mw": 2.0,
+    "kategori": "oransje",
+    "sentrum_lat": 59.744,
+    "sentrum_lon": 10.2045,
+    "kilde": "syntetisk_demo"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       9.6503,
+       59.74998
+      ],
+      [
+       9.78935,
+       59.70944
+      ],
+      [
+       9.78935,
+       59.62836
+      ],
+      [
+       9.6503,
+       59.58782
+      ],
+      [
+       9.51125,
+       59.62836
+      ],
+      [
+       9.51125,
+       59.70944
+      ],
+      [
+       9.6503,
+       59.74998
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": 6,
+    "omrade_navn": "Kongsberg",
+    "fylke": "Buskerud",
+    "ledig_kapasitet_mw": 8.8,
+    "kategori": "gul",
+    "sentrum_lat": 59.6689,
+    "sentrum_lon": 9.6503,
+    "kilde": "syntetisk_demo"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2589,
+       60.25098
+      ],
+      [
+       10.40006,
+       60.21044
+      ],
+      [
+       10.40006,
+       60.12936
+      ],
+      [
+       10.2589,
+       60.08882
+      ],
+      [
+       10.11774,
+       60.12936
+      ],
+      [
+       10.11774,
+       60.21044
+      ],
+      [
+       10.2589,
+       60.25098
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": 7,
+    "omrade_navn": "Hønefoss / Ringerike",
+    "fylke": "Buskerud",
+    "ledig_kapasitet_mw": 12.8,
+    "kategori": "gronn",
+    "sentrum_lat": 60.1699,
+    "sentrum_lon": 10.2589,
+    "kilde": "syntetisk_demo"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       5.1653,
+       60.54718
+      ],
+      [
+       5.30775,
+       60.50664
+      ],
+      [
+       5.30775,
+       60.42556
+      ],
+      [
+       5.1653,
+       60.38502
+      ],
+      [
+       5.02285,
+       60.42556
+      ],
+      [
+       5.02285,
+       60.50664
+      ],
+      [
+       5.1653,
+       60.54718
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": 8,
+    "omrade_navn": "Askøy",
+    "fylke": "Vestland",
+    "ledig_kapasitet_mw": 5.0,
+    "kategori": "gul",
+    "sentrum_lat": 60.4661,
+    "sentrum_lon": 5.1653,
+    "kilde": "syntetisk_demo"
+   }
+  }
+ ]
+}
