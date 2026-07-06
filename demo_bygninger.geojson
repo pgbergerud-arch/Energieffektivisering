@@ -1,0 +1,1339 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.70721,
+     59.8569
+    ]
+   },
+   "properties": {
+    "id": 1,
+    "navn": "Rekkehus 1",
+    "kommune": "Oslo",
+    "fylke": "Oslo",
+    "bygningstype": "Rekkehus",
+    "byggeaar": 1917,
+    "areal_m2": 3076,
+    "energikarakter": "F",
+    "oppvarmingskarakter": "rod",
+    "kilde": "registrert",
+    "potensial_score": 87
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.73658,
+     59.86433
+    ]
+   },
+   "properties": {
+    "id": 2,
+    "navn": "Enebolig 2",
+    "kommune": "Oslo",
+    "fylke": "Oslo",
+    "bygningstype": "Enebolig",
+    "byggeaar": 1911,
+    "areal_m2": 115,
+    "energikarakter": "E",
+    "oppvarmingskarakter": "gronn",
+    "kilde": "registrert",
+    "potensial_score": 48
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.7954,
+     59.92125
+    ]
+   },
+   "properties": {
+    "id": 3,
+    "navn": "Fritidsbolig 3",
+    "kommune": "Oslo",
+    "fylke": "Oslo",
+    "bygningstype": "Fritidsbolig",
+    "byggeaar": 1969,
+    "areal_m2": 167,
+    "energikarakter": "E",
+    "oppvarmingskarakter": "gul",
+    "kilde": "registrert",
+    "potensial_score": 62
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.6535,
+     59.95103
+    ]
+   },
+   "properties": {
+    "id": 4,
+    "navn": "Rekkehus 4",
+    "kommune": "Oslo",
+    "fylke": "Oslo",
+    "bygningstype": "Rekkehus",
+    "byggeaar": 1989,
+    "areal_m2": 1791,
+    "energikarakter": "B",
+    "oppvarmingskarakter": "lysegronn",
+    "kilde": "registrert",
+    "potensial_score": 22
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.71952,
+     59.96877
+    ]
+   },
+   "properties": {
+    "id": 5,
+    "navn": "Enebolig 5",
+    "kommune": "Oslo",
+    "fylke": "Oslo",
+    "bygningstype": "Enebolig",
+    "byggeaar": 1948,
+    "areal_m2": 84,
+    "energikarakter": "C",
+    "oppvarmingskarakter": "rod",
+    "kilde": "registrert",
+    "potensial_score": 57
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.66089,
+     59.88564
+    ]
+   },
+   "properties": {
+    "id": 6,
+    "navn": "Kontorbygg 6",
+    "kommune": "Oslo",
+    "fylke": "Oslo",
+    "bygningstype": "Kontorbygg",
+    "byggeaar": 1968,
+    "areal_m2": 571,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 71
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.3458,
+     60.43083
+    ]
+   },
+   "properties": {
+    "id": 7,
+    "navn": "Boligblokk 7",
+    "kommune": "Bergen",
+    "fylke": "Vestland",
+    "bygningstype": "Boligblokk",
+    "byggeaar": 1973,
+    "areal_m2": 847,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 65
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.27998,
+     60.35865
+    ]
+   },
+   "properties": {
+    "id": 8,
+    "navn": "Enebolig 8",
+    "kommune": "Bergen",
+    "fylke": "Vestland",
+    "bygningstype": "Enebolig",
+    "byggeaar": 2009,
+    "areal_m2": 119,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 38
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.38892,
+     60.38571
+    ]
+   },
+   "properties": {
+    "id": 9,
+    "navn": "Rekkehus 9",
+    "kommune": "Bergen",
+    "fylke": "Vestland",
+    "bygningstype": "Rekkehus",
+    "byggeaar": 1947,
+    "areal_m2": 1515,
+    "energikarakter": "C",
+    "oppvarmingskarakter": "gronn",
+    "kilde": "registrert",
+    "potensial_score": 27
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.25633,
+     60.4044
+    ]
+   },
+   "properties": {
+    "id": 10,
+    "navn": "Fritidsbolig 10",
+    "kommune": "Bergen",
+    "fylke": "Vestland",
+    "bygningstype": "Fritidsbolig",
+    "byggeaar": 1931,
+    "areal_m2": 101,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 83
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.35973,
+     60.44235
+    ]
+   },
+   "properties": {
+    "id": 11,
+    "navn": "Rekkehus 11",
+    "kommune": "Bergen",
+    "fylke": "Vestland",
+    "bygningstype": "Rekkehus",
+    "byggeaar": 1987,
+    "areal_m2": 1388,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 57
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.22852,
+     60.35879
+    ]
+   },
+   "properties": {
+    "id": 12,
+    "navn": "Boligblokk 12",
+    "kommune": "Bergen",
+    "fylke": "Vestland",
+    "bygningstype": "Boligblokk",
+    "byggeaar": 1951,
+    "areal_m2": 1156,
+    "energikarakter": "E",
+    "oppvarmingskarakter": "gul",
+    "kilde": "registrert",
+    "potensial_score": 62
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.32195,
+     60.35682
+    ]
+   },
+   "properties": {
+    "id": 13,
+    "navn": "Fritidsbolig 13",
+    "kommune": "Bergen",
+    "fylke": "Vestland",
+    "bygningstype": "Fritidsbolig",
+    "byggeaar": 1958,
+    "areal_m2": 96,
+    "energikarakter": "B",
+    "oppvarmingskarakter": "rod",
+    "kilde": "registrert",
+    "potensial_score": 46
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.3715,
+     60.39598
+    ]
+   },
+   "properties": {
+    "id": 14,
+    "navn": "Kontorbygg 14",
+    "kommune": "Bergen",
+    "fylke": "Vestland",
+    "bygningstype": "Kontorbygg",
+    "byggeaar": 2014,
+    "areal_m2": 2450,
+    "energikarakter": "B",
+    "oppvarmingskarakter": "lysegronn",
+    "kilde": "registrert",
+    "potensial_score": 18
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.30452,
+     63.38141
+    ]
+   },
+   "properties": {
+    "id": 15,
+    "navn": "Enebolig 15",
+    "kommune": "Trondheim",
+    "fylke": "Trøndelag",
+    "bygningstype": "Enebolig",
+    "byggeaar": 1919,
+    "areal_m2": 220,
+    "energikarakter": "F",
+    "oppvarmingskarakter": "oransje",
+    "kilde": "registrert",
+    "potensial_score": 80
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.37205,
+     63.44207
+    ]
+   },
+   "properties": {
+    "id": 16,
+    "navn": "Skolebygg 16",
+    "kommune": "Trondheim",
+    "fylke": "Trøndelag",
+    "bygningstype": "Skolebygg",
+    "byggeaar": 1959,
+    "areal_m2": 2227,
+    "energikarakter": "E",
+    "oppvarmingskarakter": "gronn",
+    "kilde": "registrert",
+    "potensial_score": 46
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.31801,
+     63.45213
+    ]
+   },
+   "properties": {
+    "id": 17,
+    "navn": "Skolebygg 17",
+    "kommune": "Trondheim",
+    "fylke": "Trøndelag",
+    "bygningstype": "Skolebygg",
+    "byggeaar": 1996,
+    "areal_m2": 1152,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 51
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.32673,
+     63.40572
+    ]
+   },
+   "properties": {
+    "id": 18,
+    "navn": "Enebolig 18",
+    "kommune": "Trondheim",
+    "fylke": "Trøndelag",
+    "bygningstype": "Enebolig",
+    "byggeaar": 2022,
+    "areal_m2": 127,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 21
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.31638,
+     63.43142
+    ]
+   },
+   "properties": {
+    "id": 19,
+    "navn": "Fritidsbolig 19",
+    "kommune": "Trondheim",
+    "fylke": "Trøndelag",
+    "bygningstype": "Fritidsbolig",
+    "byggeaar": 1938,
+    "areal_m2": 189,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 80
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.40298,
+     63.462
+    ]
+   },
+   "properties": {
+    "id": 20,
+    "navn": "Skolebygg 20",
+    "kommune": "Trondheim",
+    "fylke": "Trøndelag",
+    "bygningstype": "Skolebygg",
+    "byggeaar": 2017,
+    "areal_m2": 62,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 19
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.3677,
+     63.38392
+    ]
+   },
+   "properties": {
+    "id": 21,
+    "navn": "Boligblokk 21",
+    "kommune": "Trondheim",
+    "fylke": "Trøndelag",
+    "bygningstype": "Boligblokk",
+    "byggeaar": 1930,
+    "areal_m2": 297,
+    "energikarakter": "E",
+    "oppvarmingskarakter": "gronn",
+    "kilde": "registrert",
+    "potensial_score": 48
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.3923,
+     63.38078
+    ]
+   },
+   "properties": {
+    "id": 22,
+    "navn": "Enebolig 22",
+    "kommune": "Trondheim",
+    "fylke": "Trøndelag",
+    "bygningstype": "Enebolig",
+    "byggeaar": 1997,
+    "areal_m2": 196,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 49
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.40506,
+     63.42753
+    ]
+   },
+   "properties": {
+    "id": 23,
+    "navn": "Boligblokk 23",
+    "kommune": "Trondheim",
+    "fylke": "Trøndelag",
+    "bygningstype": "Boligblokk",
+    "byggeaar": 1967,
+    "areal_m2": 3633,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 82
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.7129,
+     58.99555
+    ]
+   },
+   "properties": {
+    "id": 24,
+    "navn": "Fritidsbolig 24",
+    "kommune": "Stavanger",
+    "fylke": "Rogaland",
+    "bygningstype": "Fritidsbolig",
+    "byggeaar": 1983,
+    "areal_m2": 155,
+    "energikarakter": "E",
+    "oppvarmingskarakter": "oransje",
+    "kilde": "registrert",
+    "potensial_score": 67
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.67804,
+     58.92452
+    ]
+   },
+   "properties": {
+    "id": 25,
+    "navn": "Boligblokk 25",
+    "kommune": "Stavanger",
+    "fylke": "Rogaland",
+    "bygningstype": "Boligblokk",
+    "byggeaar": 1902,
+    "areal_m2": 2469,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 90
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.77467,
+     58.91086
+    ]
+   },
+   "properties": {
+    "id": 26,
+    "navn": "Enebolig 26",
+    "kommune": "Stavanger",
+    "fylke": "Rogaland",
+    "bygningstype": "Enebolig",
+    "byggeaar": 1929,
+    "areal_m2": 77,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.6807,
+     58.9185
+    ]
+   },
+   "properties": {
+    "id": 27,
+    "navn": "Fritidsbolig 27",
+    "kommune": "Stavanger",
+    "fylke": "Rogaland",
+    "bygningstype": "Fritidsbolig",
+    "byggeaar": 1962,
+    "areal_m2": 114,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 77
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.74834,
+     59.01589
+    ]
+   },
+   "properties": {
+    "id": 28,
+    "navn": "Rekkehus 28",
+    "kommune": "Stavanger",
+    "fylke": "Rogaland",
+    "bygningstype": "Rekkehus",
+    "byggeaar": 2000,
+    "areal_m2": 1997,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 36
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.71931,
+     58.92163
+    ]
+   },
+   "properties": {
+    "id": 29,
+    "navn": "Kontorbygg 29",
+    "kommune": "Stavanger",
+    "fylke": "Rogaland",
+    "bygningstype": "Kontorbygg",
+    "byggeaar": 1952,
+    "areal_m2": 1972,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 65
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.76234,
+     58.98841
+    ]
+   },
+   "properties": {
+    "id": 30,
+    "navn": "Enebolig 30",
+    "kommune": "Stavanger",
+    "fylke": "Rogaland",
+    "bygningstype": "Enebolig",
+    "byggeaar": 1951,
+    "areal_m2": 146,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 66
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.94502,
+     69.61203
+    ]
+   },
+   "properties": {
+    "id": 31,
+    "navn": "Kontorbygg 31",
+    "kommune": "Tromsø",
+    "fylke": "Troms",
+    "bygningstype": "Kontorbygg",
+    "byggeaar": 1923,
+    "areal_m2": 1200,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     19.0169,
+     69.59825
+    ]
+   },
+   "properties": {
+    "id": 32,
+    "navn": "Skolebygg 32",
+    "kommune": "Tromsø",
+    "fylke": "Troms",
+    "bygningstype": "Skolebygg",
+    "byggeaar": 1912,
+    "areal_m2": 267,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 89
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.87395,
+     69.59097
+    ]
+   },
+   "properties": {
+    "id": 33,
+    "navn": "Rekkehus 33",
+    "kommune": "Tromsø",
+    "fylke": "Troms",
+    "bygningstype": "Rekkehus",
+    "byggeaar": 1921,
+    "areal_m2": 1724,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 81
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.86703,
+     69.63732
+    ]
+   },
+   "properties": {
+    "id": 34,
+    "navn": "Kontorbygg 34",
+    "kommune": "Tromsø",
+    "fylke": "Troms",
+    "bygningstype": "Kontorbygg",
+    "byggeaar": 1900,
+    "areal_m2": 1659,
+    "energikarakter": "G",
+    "oppvarmingskarakter": "oransje",
+    "kilde": "registrert",
+    "potensial_score": 92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.99462,
+     69.62343
+    ]
+   },
+   "properties": {
+    "id": 35,
+    "navn": "Fritidsbolig 35",
+    "kommune": "Tromsø",
+    "fylke": "Troms",
+    "bygningstype": "Fritidsbolig",
+    "byggeaar": 2000,
+    "areal_m2": 202,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 39
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.89884,
+     69.61199
+    ]
+   },
+   "properties": {
+    "id": 36,
+    "navn": "Enebolig 36",
+    "kommune": "Tromsø",
+    "fylke": "Troms",
+    "bygningstype": "Enebolig",
+    "byggeaar": 1974,
+    "areal_m2": 198,
+    "energikarakter": "C",
+    "oppvarmingskarakter": "gronn",
+    "kilde": "registrert",
+    "potensial_score": 26
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.95066,
+     69.59522
+    ]
+   },
+   "properties": {
+    "id": 37,
+    "navn": "Skolebygg 37",
+    "kommune": "Tromsø",
+    "fylke": "Troms",
+    "bygningstype": "Skolebygg",
+    "byggeaar": 1920,
+    "areal_m2": 292,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 78
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.90919,
+     58.09492
+    ]
+   },
+   "properties": {
+    "id": 38,
+    "navn": "Rekkehus 38",
+    "kommune": "Kristiansand",
+    "fylke": "Agder",
+    "bygningstype": "Rekkehus",
+    "byggeaar": 1951,
+    "areal_m2": 551,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 74
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.90355,
+     58.15617
+    ]
+   },
+   "properties": {
+    "id": 39,
+    "navn": "Enebolig 39",
+    "kommune": "Kristiansand",
+    "fylke": "Agder",
+    "bygningstype": "Enebolig",
+    "byggeaar": 1953,
+    "areal_m2": 209,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 70
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.02955,
+     58.11799
+    ]
+   },
+   "properties": {
+    "id": 40,
+    "navn": "Boligblokk 40",
+    "kommune": "Kristiansand",
+    "fylke": "Agder",
+    "bygningstype": "Boligblokk",
+    "byggeaar": 1930,
+    "areal_m2": 1147,
+    "energikarakter": "F",
+    "oppvarmingskarakter": "gul",
+    "kilde": "registrert",
+    "potensial_score": 72
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.0814,
+     58.14157
+    ]
+   },
+   "properties": {
+    "id": 41,
+    "navn": "Enebolig 41",
+    "kommune": "Kristiansand",
+    "fylke": "Agder",
+    "bygningstype": "Enebolig",
+    "byggeaar": 1901,
+    "areal_m2": 177,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 89
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.00313,
+     58.0987
+    ]
+   },
+   "properties": {
+    "id": 42,
+    "navn": "Skolebygg 42",
+    "kommune": "Kristiansand",
+    "fylke": "Agder",
+    "bygningstype": "Skolebygg",
+    "byggeaar": 1933,
+    "areal_m2": 602,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.96951,
+     58.19221
+    ]
+   },
+   "properties": {
+    "id": 43,
+    "navn": "Rekkehus 43",
+    "kommune": "Kristiansand",
+    "fylke": "Agder",
+    "bygningstype": "Rekkehus",
+    "byggeaar": 1956,
+    "areal_m2": 3475,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 69
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.05702,
+     58.20476
+    ]
+   },
+   "properties": {
+    "id": 44,
+    "navn": "Skolebygg 44",
+    "kommune": "Kristiansand",
+    "fylke": "Agder",
+    "bygningstype": "Skolebygg",
+    "byggeaar": 1901,
+    "areal_m2": 2795,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 83
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.33176,
+     67.33307
+    ]
+   },
+   "properties": {
+    "id": 45,
+    "navn": "Enebolig 45",
+    "kommune": "Bodø",
+    "fylke": "Nordland",
+    "bygningstype": "Enebolig",
+    "byggeaar": 2013,
+    "areal_m2": 87,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 18
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.34703,
+     67.25421
+    ]
+   },
+   "properties": {
+    "id": 46,
+    "navn": "Boligblokk 46",
+    "kommune": "Bodø",
+    "fylke": "Nordland",
+    "bygningstype": "Boligblokk",
+    "byggeaar": 1926,
+    "areal_m2": 2875,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 82
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.48597,
+     67.27902
+    ]
+   },
+   "properties": {
+    "id": 47,
+    "navn": "Enebolig 47",
+    "kommune": "Bodø",
+    "fylke": "Nordland",
+    "bygningstype": "Enebolig",
+    "byggeaar": 1911,
+    "areal_m2": 168,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 77
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.33106,
+     67.26043
+    ]
+   },
+   "properties": {
+    "id": 48,
+    "navn": "Boligblokk 48",
+    "kommune": "Bodø",
+    "fylke": "Nordland",
+    "bygningstype": "Boligblokk",
+    "byggeaar": 1920,
+    "areal_m2": 3096,
+    "energikarakter": "F",
+    "oppvarmingskarakter": "oransje",
+    "kilde": "registrert",
+    "potensial_score": 80
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.32727,
+     67.28771
+    ]
+   },
+   "properties": {
+    "id": 49,
+    "navn": "Fritidsbolig 49",
+    "kommune": "Bodø",
+    "fylke": "Nordland",
+    "bygningstype": "Fritidsbolig",
+    "byggeaar": 2015,
+    "areal_m2": 98,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 21
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.33452,
+     67.2903
+    ]
+   },
+   "properties": {
+    "id": 50,
+    "navn": "Rekkehus 50",
+    "kommune": "Bodø",
+    "fylke": "Nordland",
+    "bygningstype": "Rekkehus",
+    "byggeaar": 1905,
+    "areal_m2": 1322,
+    "energikarakter": "G",
+    "oppvarmingskarakter": "gronn",
+    "kilde": "registrert",
+    "potensial_score": 69
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.41611,
+     61.08051
+    ]
+   },
+   "properties": {
+    "id": 51,
+    "navn": "Enebolig 51",
+    "kommune": "Lillehammer",
+    "fylke": "Innlandet",
+    "bygningstype": "Enebolig",
+    "byggeaar": 1945,
+    "areal_m2": 203,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 86
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.39711,
+     61.12978
+    ]
+   },
+   "properties": {
+    "id": 52,
+    "navn": "Rekkehus 52",
+    "kommune": "Lillehammer",
+    "fylke": "Innlandet",
+    "bygningstype": "Rekkehus",
+    "byggeaar": 2010,
+    "areal_m2": 725,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 21
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.37116,
+     61.16107
+    ]
+   },
+   "properties": {
+    "id": 53,
+    "navn": "Fritidsbolig 53",
+    "kommune": "Lillehammer",
+    "fylke": "Innlandet",
+    "bygningstype": "Fritidsbolig",
+    "byggeaar": 2018,
+    "areal_m2": 145,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 19
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.51321,
+     61.13569
+    ]
+   },
+   "properties": {
+    "id": 54,
+    "navn": "Rekkehus 54",
+    "kommune": "Lillehammer",
+    "fylke": "Innlandet",
+    "bygningstype": "Rekkehus",
+    "byggeaar": 1934,
+    "areal_m2": 712,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 79
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.53792,
+     61.15996
+    ]
+   },
+   "properties": {
+    "id": 55,
+    "navn": "Rekkehus 55",
+    "kommune": "Lillehammer",
+    "fylke": "Innlandet",
+    "bygningstype": "Rekkehus",
+    "byggeaar": 1925,
+    "areal_m2": 3404,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 84
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.54046,
+     61.15376
+    ]
+   },
+   "properties": {
+    "id": 56,
+    "navn": "Rekkehus 56",
+    "kommune": "Lillehammer",
+    "fylke": "Innlandet",
+    "bygningstype": "Rekkehus",
+    "byggeaar": 1903,
+    "areal_m2": 2763,
+    "energikarakter": "C",
+    "oppvarmingskarakter": "gul",
+    "kilde": "registrert",
+    "potensial_score": 42
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.55958,
+     61.15902
+    ]
+   },
+   "properties": {
+    "id": 57,
+    "navn": "Boligblokk 57",
+    "kommune": "Lillehammer",
+    "fylke": "Innlandet",
+    "bygningstype": "Boligblokk",
+    "byggeaar": 1944,
+    "areal_m2": 2687,
+    "energikarakter": null,
+    "oppvarmingskarakter": null,
+    "kilde": "estimert",
+    "potensial_score": 92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.43243,
+     61.15654
+    ]
+   },
+   "properties": {
+    "id": 58,
+    "navn": "Enebolig 58",
+    "kommune": "Lillehammer",
+    "fylke": "Innlandet",
+    "bygningstype": "Enebolig",
+    "byggeaar": 1914,
+    "areal_m2": 126,
+    "energikarakter": "C",
+    "oppvarmingskarakter": "gronn",
+    "kilde": "registrert",
+    "potensial_score": 27
+   }
+  }
+ ]
+}
