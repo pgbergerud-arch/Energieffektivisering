@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Prioritetskart — energieffektivisering og nettkapasitet</title>
+<meta name="description" content="Kart som kombinerer bygningers energieffektiviseringspotensial med nettkapasitet, for å finne hvor innsatsen gir mest igjen.">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">⟁</span>
+      <div class="brand-text">
+        <h1>Prioritetskart</h1>
+        <p>Energipotensial × nettkapasitet — Glitre Netts område</p>
+      </div>
+    </div>
+    <nav class="topnav">
+      <a href="index.html">Energipotensial</a>
+      <a href="nettkapasitet.html" class="active">Prioritetskart</a>
+    </nav>
+    <button class="panel-toggle" id="panelToggle" aria-expanded="true" aria-controls="sidebar">
+      <span class="toggle-line"></span><span class="toggle-line"></span><span class="toggle-line"></span>
+    </button>
+  </header>
+
+  <aside class="sidebar" id="sidebar">
+
+    <div class="demo-banner">
+      Nettkapasitet-dataene er syntetiske demo-data — se metodikk for detaljer.
+    </div>
+
+    <section class="stat-strip" aria-label="Nøkkeltall for gjeldende utvalg">
+      <div class="stat">
+        <span class="stat-value" id="statCount">–</span>
+        <span class="stat-label">bygg i utvalg</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="statAvg">–</span>
+        <span class="stat-label">snitt-prioritet</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="statHigh">–</span>
+        <span class="stat-label">topp-prioritet</span>
+      </div>
+    </section>
+
+    <section class="panel-group">
+      <h2>Filtre</h2>
+
+      <label class="field">
+        <span>Nettområde (trafoforsyning)</span>
+        <select id="filterOmrade"><option value="">Alle områder</option></select>
+      </label>
+
+      <label class="field">
+        <span>Bygningstype</span>
+        <select id="filterType"><option value="">Alle typer</option></select>
+      </label>
+
+      <label class="field">
+        <span>Minste prioritet: <output id="minPrioOut">0</output></span>
+        <input type="range" id="filterMinPrio" min="0" max="100" step="5" value="0">
+      </label>
+
+      <label class="field checkbox-field">
+        <input type="checkbox" id="toggleSoner" checked>
+        <span>Vis nettkapasitet-soner</span>
+      </label>
+    </section>
+
+    <section class="panel-group">
+      <h2>Forklaring</h2>
+      <div class="legend">
+        <div class="legend-gradient"></div>
+        <div class="legend-labels">
+          <span>Lav prioritet</span>
+          <span>Høy prioritet</span>
+        </div>
+      </div>
+      <p class="legend-note">
+        Prioritet kombinerer bygningens effektiviseringspotensial med hvor
+        stramt strømnettet er i området: <strong>høyt potensial + lav ledig
+        nettkapasitet = høyest prioritet</strong>. <a href="#" id="methodLink">Se full metodikk</a>.
+      </p>
+
+      <div class="zone-legend">
+        <h3>Nettkapasitet-soner (omriss)</h3>
+        <div class="zone-legend-row"><span class="zone-swatch" style="background:#c1622d"></span> Rød — under 2 MW ledig</div>
+        <div class="zone-legend-row"><span class="zone-swatch" style="background:#e0a63f"></span> Oransje — 2–5 MW</div>
+        <div class="zone-legend-row"><span class="zone-swatch" style="background:#e0d33f"></span> Gul — 5–10 MW</div>
+        <div class="zone-legend-row"><span class="zone-swatch" style="background:#4fa67f"></span> Grønn — over 10 MW ledig</div>
+      </div>
+    </section>
+
+    <section class="panel-group source-note">
+      <h2>Om datagrunnlaget</h2>
+      <p id="dataSourceNote">Laster inn datasett …</p>
+    </section>
+
+  </aside>
+
+  <main class="map-wrap">
+    <div id="map" role="application" aria-label="Kart over prioriterte bygninger og nettkapasitet"></div>
+    <div class="map-loading" id="mapLoading">Laster data …</div>
+  </main>
+
+</div>
+
+<dialog id="methodDialog">
+  <h2>Metodikk for prioritetsscore</h2>
+  <p>Hver bygning i Glitre Netts konsesjonsområde (Agder, Buskerud, deler av Østfold/Akershus, Hadeland, Askøy) får en prioritetsscore fra 0 til 100:</p>
+  <ol>
+    <li><strong>Effektiviseringspotensial (50 %):</strong> samme beregning som på Energipotensial-kartet — registrert energiattest der den finnes, ellers estimat fra byggeår og type.</li>
+    <li><strong>Nettkapasitet (50 %):</strong> bygget kobles til nettkapasitet-sonen (trafoforsyningsområdet) det ligger i. Lav ledig kapasitet gir høy score på denne komponenten.</li>
+  </ol>
+  <p><strong>Prioritet = 0,5 × potensial + 0,5 × (100 − normalisert ledig kapasitet)</strong></p>
+  <p>Nettkapasitet-dataene i dette kartet er <strong>syntetiske demo-data</strong> — DataArena (Glitre Netts ekte kapasitetskart, kart.dataarena.no) har ingen dokumentert åpen API for bulk-uttrekk. Se README for hvordan du bytter inn ekte tall manuelt per område.</p>
+  <button id="closeMethod">Lukk</button>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
+<script src="app-nettkapasitet.js"></script>
+</body>
+</html>
