@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Energipotensial — kart over bygningers effektiviseringspotensial</title>
+<meta name="description" content="Interaktivt kart som visualiserer potensialet for energieffektivisering i norske bygninger.">
+
+<link rel="stylesheet" href="vendor/leaflet.css" />
+<link rel="stylesheet" href="vendor/MarkerCluster.css" />
+<link rel="stylesheet" href="vendor/MarkerCluster.Default.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">⟁</span>
+      <div class="brand-text">
+        <h1>Energipotensial</h1>
+        <p>Kart over effektiviseringspotensial i norske bygg</p>
+      </div>
+    </div>
+    <nav class="topnav">
+      <a href="index.html" class="active">Energipotensial</a>
+      <a href="nettkapasitet.html">Prioritetskart</a>
+    </nav>
+    <div class="topbar-right">
+    <button class="panel-toggle" id="panelToggle" aria-expanded="true" aria-controls="sidebar">
+      <span class="toggle-line"></span><span class="toggle-line"></span><span class="toggle-line"></span>
+    </button>
+    </div>
+  </header>
+
+  <aside class="sidebar" id="sidebar">
+
+    <section class="stat-strip" id="statStrip" aria-label="Nøkkeltall for gjeldende utvalg">
+      <div class="stat">
+        <span class="stat-value" id="statCount">–</span>
+        <span class="stat-label">bygg i utvalg</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="statAvg">–</span>
+        <span class="stat-label">snitt-potensial</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="statHigh">–</span>
+        <span class="stat-label">høyt potensial</span>
+      </div>
+    </section>
+
+    <section class="panel-group">
+      <h2>Filtre</h2>
+
+      <label class="field">
+        <span>Fylke</span>
+        <select id="filterFylke"><option value="">Alle fylker</option></select>
+      </label>
+
+      <label class="field">
+        <span>Kommune</span>
+        <select id="filterKommune"><option value="">Alle kommuner</option></select>
+      </label>
+
+      <label class="field">
+        <span>Bygningstype</span>
+        <select id="filterType"><option value="">Alle typer</option></select>
+      </label>
+
+      <label class="field">
+        <span>Datakilde</span>
+        <select id="filterKilde">
+          <option value="">Registrert og estimert</option>
+          <option value="registrert">Kun registrert energiattest</option>
+          <option value="estimert">Kun estimert</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>Minste potensial: <output id="minPotOut">0</output></span>
+        <input type="range" id="filterMinPot" min="0" max="100" step="5" value="0">
+      </label>
+    </section>
+
+    <section class="panel-group">
+      <h2>Forklaring</h2>
+      <div class="legend" id="legend">
+        <div class="legend-gradient"></div>
+        <div class="legend-labels">
+          <span>Lavt potensial</span>
+          <span>Høyt potensial</span>
+        </div>
+      </div>
+      <p class="legend-note">
+        Potensial-score kombinerer registrert energikarakter og oppvarmingskarakter
+        (Enova) med en modellbasert vurdering ut fra byggeår, areal og bygningstype
+        når energiattest mangler. <a href="#" id="methodLink">Se metodikk</a>.
+      </p>
+    </section>
+
+    <section class="panel-group source-note">
+      <h2>Om datagrunnlaget</h2>
+      <p id="dataSourceNote">Laster inn datasett …</p>
+    </section>
+
+  </aside>
+
+  <main class="map-wrap">
+    <div id="map" role="application" aria-label="Kart over bygninger"></div>
+    <div class="map-loading" id="mapLoading">Laster bygninger …</div>
+  </main>
+
+</div>
+
+<dialog id="methodDialog">
+  <h2>Metodikk for potensial-score</h2>
+  <p>Hver bygning får en score fra 0 (lite potensial) til 100 (stort potensial for energieffektivisering):</p>
+  <ol>
+    <li><strong>Med registrert energiattest:</strong> 60 % energikarakter (A–G), 30 % oppvarmingskarakter (rød–grønn), 10 % byggeår.</li>
+    <li><strong>Uten energiattest (estimert):</strong> score beregnes fra byggeår, bygningstype og areal som en grov tilnærming, tydelig merket "estimert" i kartet.</li>
+  </ol>
+  <p>Dette er en forenklet, illustrativ modell — ikke en erstatning for en reell energivurdering. Se README i prosjektet for full formel og kildekode for databehandlingen.</p>
+  <button id="closeMethod">Lukk</button>
+</dialog>
+
+<script src="vendor/leaflet.js"></script>
+<script src="vendor/leaflet.markercluster.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
